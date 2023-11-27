@@ -68,7 +68,7 @@
         <form data-bss-recipient="a11e02c300b690ab8ea3b46f2a602dde">
             <h2 class="text-center ">Contact me</h2>
             <div class="form-group "><input class="form-control " type="text " name="name " placeholder="Name "></div>
-            <div class="form-group "><input class="form-control is-invalid " type="email " name="email " placeholder="Email "><small class="form-text text-danger ">Please enter a correct email address.</small></div>
+            <div class="form-group "><input class="form-control is-invalid " type="email " name="email " placeholder="Email " required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></div>
             <div class="form-group "><textarea class="form-control " name="message " placeholder="Message " rows="14 "></textarea></div>
             <div class="form-group "><button class="btn btn-success " style="background-color: rgb(9,169,44);" type="submit ">send </button></div>
         </form>
